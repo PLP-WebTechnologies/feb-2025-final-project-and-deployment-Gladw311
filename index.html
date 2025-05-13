@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Awesome Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">My Awesome Blog</h1>
+            <button class="nav-toggle" aria-label="Toggle navigation menu">&#9776;</button>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog Posts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="home" class="section-home">
+            <h2>Welcome to My Blog</h2>
+            <p>This is a place where I share my thoughts on coding, technology, and life.</p>
+            <article>
+                <h3>Getting Started with JavaScript</h3>
+                <p>JavaScript is a versatile language used for web development. Learn how to get started with the basics.</p>
+                <a href="#blog" class="read-more">Read more</a>
+            </article>
+        </section>
+
+        <section id="about" class="section-about">
+            <h2>About Me</h2>
+            <p>Hi! I'm a passionate coder who loves creating web applications and learning new technologies.</p>
+            <article>
+                <h3>My Journey</h3>
+                <p>From beginner to enthusiast, I've learned a lot about HTML, CSS, and JavaScript!</p>
+            </article>
+        </section>
+
+        <section id="blog" class="section-blog">
+            <h2>Blog Posts</h2>
+            <article class="post">
+                <h3>Understanding CSS Flexbox</h3>
+                <p>Flexbox simplifies designing flexible responsive layout structure without using float or positioning.</p>
+                <button class="like-btn" aria-label="Like this post">👍 Like</button> <span class="like-count">0</span>
+            </article>
+            <article class="post">
+                <h3>Responsive Web Design Tips</h3>
+                <p>Tips and tricks to make your website look great on any device size using responsive design.</p>
+                <button class="like-btn" aria-label="Like this post">👍 Like</button> <span class="like-count">0</span>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2024 My Awesome Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!--
+        Deployment Link:
+        You can deploy this site on GitHub Pages, Netlify, or Vercel by uploading the files to a repository or project.
+        Example GitHub Pages link: https://yourusername.github.io/your-repo-name/
+    -->
+</body>
+</html>
+
